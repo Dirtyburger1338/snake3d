@@ -20,6 +20,7 @@ body {
 }
 .info-wrapper {
   width: 100%;
+  background: #4d4d64;
   text-align: center;
   height:80px;
 }
@@ -34,14 +35,16 @@ body {
   /* height: calc(100% - 80px); */
 }
 .footer {
-  padding: 15px;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100px;
-  width: 100%;
+    padding: 15px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background: #4d4d64;
+    border-top: 1px solid white;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
 }
 #renderCanvas {
   height: 100%;
