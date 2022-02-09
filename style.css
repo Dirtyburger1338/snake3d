@@ -1,0 +1,88 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  overflow: hidden;
+  margin: 0;
+}
+.page-wrapper {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: rgb(104, 134, 88); */
+  background-color: rgb(51, 51, 76);
+  color: white;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.info-wrapper {
+  width: 100%;
+  text-align: center;
+}
+.info-text {
+  font-size: 16px;
+  margin: 10px 0;
+}
+.canvas-wrapper {
+  flex: 1;
+  width: 100vw;
+}
+#renderCanvas {
+  margin-top: 15px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+.score-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+#highscore {
+  /* font-size: 20px;
+  position: absolute;
+  right: 32px;
+  top: 40px; */
+}
+#renderCanvas:focus {
+  outline: none;
+}
+#cntDiv {
+  font-size: 20px;
+}
+.error-msg {
+  font-size: 20px;
+  margin-top: 20px;
+  height: 25px;
+}
+.restart-btn {
+  display: none;
+  background-color: #33334c;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+.restart-btn:focus {
+  background-color: rgb(70, 70, 102);
+  outline: none;
+}
+.restart-btn:active {
+  background-color: rgb(83, 83, 121);
+  color: black;
+  outline: none;
+}
+.restart-btn:hover {
+  background-color: rgb(70, 70, 102);
+  outline: none;
+}
+.footer {
+  padding: 15px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  height: 100px;
+}
